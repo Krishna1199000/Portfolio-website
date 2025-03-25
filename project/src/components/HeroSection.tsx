@@ -15,7 +15,7 @@ export function HeroSection() {
       </div>
       <div className="container mx-auto px-4 text-center relative z-10">
         <motion.img
-          src="./profile.jpg"
+          src="/profile.jpg"
           alt="Krishna Gohil"
           className="w-32 h-32 rounded-full mx-auto object-cover border-4 border-blue-500 mb-8"
           initial={{ scale: 0 }}
@@ -59,7 +59,7 @@ function SocialLinks() {
       animate={{ y: 0, opacity: 1 }}
       transition={{ delay: 0.6 }}
     >
-      {links.map(({ icon: Icon, href }, index) => (
+      {links.map(({ icon: Icon, href }) => (
         <motion.a
           key={href}
           href={href}
