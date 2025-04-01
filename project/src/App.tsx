@@ -19,7 +19,7 @@ function App() {
       <Navigation />
       <HeroSection />
 
-      {/* Projects Section */}
+    
       <section id="projects" className="py-20">
         <div className="container mx-auto px-4">
           <motion.div
